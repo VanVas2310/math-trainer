@@ -46,7 +46,7 @@ class MathTrainer:
             if user_input.lower() == 'quit' or user_input.lower() == 'выйти':
                  break
                 
-            self.total_questions += 1  # ← ПЕРЕМЕСТИЛИ СЮДА!
+            self.total_questions += 1
                 
             if self.check_answer(user_input, correct_answer):
                 print("✅ Правильно!")
